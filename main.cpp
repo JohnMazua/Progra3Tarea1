@@ -6,19 +6,19 @@ using namespace std;
 int sumar(int a, int b)
 {
 
-     return a+b;
+     return a+b; // retorna la suma de a mas b
 }
 
 //Devuelve la resta de a (dado) y b (dado)
 int restar(int a, int b)
 {
-    return a-b;
+    return a-b;  // retorna la resta de a menos b
 }
 
 //Devuelve la multiplicacion de a (dado) y b (dado)
 int multiplicar(int a, int b)
 {
-    return a*b;
+    return a*b; // retorna la multiplicacion de a por b
 }
 
 //Devuelve la division de a (dado) y b (dado)
