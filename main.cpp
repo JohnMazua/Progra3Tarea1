@@ -24,7 +24,8 @@ int multiplicar(int a, int b)
 //Devuelve la division de a (dado) y b (dado)
 int dividir(int a, int b)
 {
-    return a/b;
+    if(b>0) return a/b;
+    else return 0;
 }
 
 //Devuelve el numero mayor entre a (dado) y b (dado)
